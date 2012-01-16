@@ -4,6 +4,7 @@ import time
 from populate import _listen_
 
 def _play_(name, freq, dur, vol, mode='ab'):
+    """ Generate sound with frequency freq, duration dur, and volume vol """
     _dump_ = open(name, mode)
     _dump_.write('.snd' + pack('>5L', 24, 8*dur, 2, 8000, 1))
     _factor_ = 2 * pi * freq/8000
