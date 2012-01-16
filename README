@@ -1,0 +1,9 @@
+Exploring algorithmic music composition
+
+TODOs:
+Incorporate Karplus-Strong for plucked-string sound.
+Try different algorithms.
+Make it choose between different styles (rock, pop, reggae, swing etc), based on different time signatures.
+Add a database of scales and corresponding notes.
+Think of more TODOs.
+
